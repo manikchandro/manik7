@@ -1,0 +1,382 @@
+@media (max-width: 767px) {
+
+    .navbar-light .navbar-brand {
+        width: 60%;
+    }
+
+    .navbar button {
+        background-color: white;
+    }
+
+    .btn:not(:disabled):not(.disabled) {
+        background-color: #744fa0;
+    }
+
+    .btn:not(:disabled):not(.disabled):hover {
+        background-color: #fff;
+    }
+
+    .navbar-nav li .btm-border:before {
+        left: -10px;
+    }
+
+    .navbar-nav li .border-active:before {
+        left: -10px;
+    }
+
+    /*nav bar end*/
+    .banner_text {
+        padding-right: 15px;
+    }
+
+    .banner_text .fa-home {
+        display: none;
+    }
+
+    .banner_text h3 {
+        font-size: 21px;
+    }
+
+    .banner_text a h4 {
+        padding-right: 0px;
+    }
+
+    .banner_text a {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .banner_text p {
+        padding-left: 0px;
+    }
+
+    .banner_text i {
+        padding-left: 8px;
+    }
+
+    .banner_text a h4 span {
+        padding-right: 5px;
+        font-size: 16px;
+    }
+
+    .slick-dots {
+        right: 22%;
+        transform: translate(-50%);
+        top: 88%;
+    }
+
+    .slick-dots li {
+        display: inline-block;
+
+    }
+
+    .banner_img {
+        height: 650px;
+    }
+
+    .banner_img2 {
+        height: 650px;
+    }
+
+    .banner_img3 {
+        height: 650px;
+    }
+
+    .banner_text h3:after {
+        width: 40%;
+    }
+
+    #full-banner .fa-home {
+        display: none;
+    }
+
+    /*    banner part end*/
+    .about_us h2 {
+        padding-top: 35px;
+    }
+
+    /*    about us end*/
+
+
+    .nav-pills a h4 {
+        display: none;
+    }
+
+    .nav-pills {
+        flex-direction: row !important;
+    }
+
+    .nav-pills .nav-link {
+        margin-right: 0;
+        padding: 5px;
+        border-style: none
+    }
+
+    .nav-pills .nav-link:hover,
+    .nav-pills .nav-link.active {
+        border-style: none
+    }
+
+    .nav-link.active {
+        border-style: none;
+        margin-left: 10px;
+    }
+
+    .for-all-header h2 {
+        font-size: 22px;
+    }
+
+    .tab-pane img {
+        margin-left: 55px;
+    }
+
+    .mobile-img-cont {
+        margin-left: 50px;
+        text-align: center !important;
+    }
+
+    .slick-slide img {
+        margin-left: 14px;
+    }
+
+    #screenshoot .slick-dots,
+    .client-slider .slick-dots {
+        width: 70%;
+        top: 100%;
+        left: 50%;
+    }
+
+    .full-video-bg {
+        padding: 130px 0px;
+    }
+
+    .screen-shot {
+        padding-top: 80px;
+    }
+
+    .plan-a {
+        margin-top: 45px;
+    }
+
+    .client-slider .slick-slide img {
+        margin-left: 0px;
+    }
+
+    .team-slider .slick-slide img {
+        margin-left: 0px;
+    }
+
+    #fotter i {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+
+    #fotter h3 {
+        font-size: 12px;
+    }
+
+    .top_scroll {
+        height: 30px;
+        width: 30px;
+        font-size: 11px;
+    }
+
+    .top_scroll:hover {
+        background-color: white;
+        color: #744fa0;
+        border: 2px solid #744fa0;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #full-banner .slick-dots {
+        right: 33%;
+    }
+
+    /*    banner end*/
+    .nav-pills {
+        margin-left: 110px;
+    }
+
+    .tab-pane img {
+        margin-left: 125px;
+    }
+
+    .mobile-img-cont {
+        margin-left: 90px;
+        text-align: center !important;
+    }
+
+    /*    nav tab end*/
+    #screenshoot .slick-slide img {
+        margin-left: 120px;
+    }
+    #screenshoot .slick-dots,
+    .client-slider .slick-dots {
+        width: 70%;
+        top: 100%;
+        left: 55%;
+    }
+    #feedback .slick-dots,
+    .client-slider .slick-dots {
+        width: 70%;
+        top: 100%;
+        left: 50%;
+    }
+
+    /*    screenshoot end*/
+    .team-images img {
+        width: 100%;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .navbar-nav li .btm-border:before {
+        left: -10px;
+    }
+
+    .navbar-nav li .border-active:before {
+        left: -10px;
+    }
+
+    .banner_text p {
+        padding-left: 45%;
+    }
+
+    .banner_overlay .fa-home {
+        display: none;
+    }
+
+    .slick-dots {
+        right: 35%;
+        transform: translate(-50%);
+        top: 88%;
+    }
+
+    .slick-dots li {
+        display: inline-block;
+
+    }
+
+    .about_us_img img {
+        margin-top: 50px;
+    }
+
+    .nav-pills a h4 span {
+        display: none;
+    }
+
+    .nav-pills a h4 {
+        display: block;
+    }
+
+    .tab-pane img {
+        padding-top: 50px;
+    }
+
+    .slick-slide img {
+        display: block;
+        margin: auto;
+    }
+
+    #screenshoot .slick-dots,
+    .client-slider .slick-dots {
+        width: 27%;
+        right: 20%;
+    }
+
+    .plan-a {
+        margin-top: 60px;
+    }
+
+    .for-team-b {
+        margin-left: 170px;
+    }
+
+    .team-slider .slick-dots {
+        display: none !important;
+    }
+
+    #feedback .slick-dots {
+        width: 50%;
+        right: 0%;
+    }
+
+    .fedback_main .slick-dots {
+        display: none !important;
+    }
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #full-banner .fa-home {
+        display: none;
+    }
+
+    .slick-dots {
+        right: 40%;
+        transform: translate(-50%);
+        top: 88%;
+    }
+
+    .slick-dots li {
+        display: inline-block;
+
+    }
+
+    .plan-a {
+        width: 225px;
+    }
+
+    .team-slider .slick-dots {
+        display: none !important;
+    }
+
+    .fedback_main .slick-dots {
+        display: none !important;
+    }
+
+    #feedback .slick-dots {
+        width: 46%;
+
+    }
+
+    #screenshoot .slick-dots,
+    .client-slider .slick-dots {
+        width: 50%;
+        top: 100%;
+        right: 0%;
+    }
+    #feedback .slick-dots{
+        width: 48%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .banner_overlay .fa-home {
+        right: 14px;
+    }
+
+    #full-banner .slick-dots {
+        right: -8px;
+
+    }
+
+    .banner_text {
+        right: 25px;
+    }
+
+    #feedback .slick-dots {
+        width: 46%;
+
+    }
+}
